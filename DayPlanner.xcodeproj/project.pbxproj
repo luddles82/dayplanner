@@ -14,6 +14,8 @@
 		CD9C24401B0140AC00D42A4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9C243F1B0140AC00D42A4D /* Images.xcassets */; };
 		CD9C24431B0140AC00D42A4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9C24411B0140AC00D42A4D /* LaunchScreen.xib */; };
 		CD9C244F1B0140AC00D42A4D /* DayPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C244E1B0140AC00D42A4D /* DayPlannerTests.swift */; };
+		CD9C24591B02917500D42A4D /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C24581B02917500D42A4D /* TasksTableViewController.swift */; };
+		CD9C245B1B0291A100D42A4D /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C245A1B0291A100D42A4D /* EditTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		CD9C24481B0140AC00D42A4D /* DayPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9C244D1B0140AC00D42A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9C244E1B0140AC00D42A4D /* DayPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPlannerTests.swift; sourceTree = "<group>"; };
+		CD9C24581B02917500D42A4D /* TasksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
+		CD9C245A1B0291A100D42A4D /* EditTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				CD9C24411B0140AC00D42A4D /* LaunchScreen.xib */,
 				CD9C24371B0140AC00D42A4D /* DayPlanner.xcdatamodeld */,
 				CD9C24331B0140AC00D42A4D /* Supporting Files */,
+				CD9C24581B02917500D42A4D /* TasksTableViewController.swift */,
+				CD9C245A1B0291A100D42A4D /* EditTaskViewController.swift */,
 			);
 			path = DayPlanner;
 			sourceTree = "<group>";
@@ -217,6 +223,8 @@
 			files = (
 				CD9C243B1B0140AC00D42A4D /* ViewController.swift in Sources */,
 				CD9C24361B0140AC00D42A4D /* AppDelegate.swift in Sources */,
+				CD9C245B1B0291A100D42A4D /* EditTaskViewController.swift in Sources */,
+				CD9C24591B02917500D42A4D /* TasksTableViewController.swift in Sources */,
 				CD9C24391B0140AC00D42A4D /* DayPlanner.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
